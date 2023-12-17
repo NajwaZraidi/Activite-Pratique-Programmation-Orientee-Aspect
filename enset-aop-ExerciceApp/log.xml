@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-12-13T01:44:30</date>
+  <millis>1702428270992</millis>
+  <sequence>0</sequence>
+  <logger>ma.enset.aop.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>ma.enset.aop.metier.IMetierBanqueImpl</class>
+  <method>addCompte_aroundBody1$advice</method>
+  <thread>1</thread>
+  <message>******************************</message>
+</record>
+<record>
+  <date>2023-12-13T01:44:30</date>
+  <millis>1702428270994</millis>
+  <sequence>1</sequence>
+  <logger>ma.enset.aop.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>ma.enset.aop.metier.IMetierBanqueImpl</class>
+  <method>addCompte_aroundBody1$advice</method>
+  <thread>1</thread>
+  <message>Avant l'execution de la methode addCompte</message>
+</record>
+<record>
+  <date>2023-12-13T01:44:30</date>
+  <millis>1702428270995</millis>
+  <sequence>2</sequence>
+  <logger>ma.enset.aop.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>ma.enset.aop.metier.IMetierBanqueImpl</class>
+  <method>addCompte_aroundBody1$advice</method>
+  <thread>1</thread>
+  <message>Après l'execution de la methode addCompte</message>
+</record>
+<record>
+  <date>2023-12-13T01:44:30</date>
+  <millis>1702428270995</millis>
+  <sequence>3</sequence>
+  <logger>ma.enset.aop.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>ma.enset.aop.metier.IMetierBanqueImpl</class>
+  <method>addCompte_aroundBody1$advice</method>
+  <thread>1</thread>
+  <message>Temps d'execution de la methode addCompte est 3 ms</message>
+</record>
+<record>
+  <date>2023-12-13T01:44:30</date>
+  <millis>1702428270995</millis>
+  <sequence>4</sequence>
+  <logger>ma.enset.aop.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>ma.enset.aop.metier.IMetierBanqueImpl</class>
+  <method>addCompte_aroundBody1$advice</method>
+  <thread>1</thread>
+  <message>*****************************</message>
+</record>
+</log>
